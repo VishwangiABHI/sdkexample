@@ -12,16 +12,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this@MainActivity,R.layout.activity_main)
+        onDHACardClick()
+    }
+
+    fun onDHACardClick(){
         binding.tvActiveMindStart.setOnClickListener {
             Log.e("in","in webview")
 
             val intent = Intent(this@MainActivity,TestWebview::class.java)
             startActivity(intent)
         }
-    }
-
-    fun onDHACardClick(){
-        Log.e("in","in webview")
 
     }
 }
