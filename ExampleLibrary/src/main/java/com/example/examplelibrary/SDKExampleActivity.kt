@@ -11,6 +11,10 @@ class SDKExampleActivity : AppCompatActivity() {
     lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        showCard()
+    }
+
+    fun showCard(){
         binding = DataBindingUtil.setContentView(this@SDKExampleActivity,R.layout.activity_main)
         binding.tvActiveMindStart.setOnClickListener {
             Log.e("in","in webview")
