@@ -6,7 +6,7 @@
 
         <variable
             name="mainActivity"
-            type="com.example.examplelibrary.MainActivity" />
+            type="com.example.examplelibrary.SDKExampleActivity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -7,21 +7,15 @@ import android.util.Log
 import androidx.databinding.DataBindingUtil
 import com.example.examplelibrary.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class SDKExampleActivity : AppCompatActivity() {
     lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this@MainActivity,R.layout.activity_main)
-        onDHACardClick()
-    }
-
-    fun onDHACardClick(){
+        binding = DataBindingUtil.setContentView(this@SDKExampleActivity,R.layout.activity_main)
         binding.tvActiveMindStart.setOnClickListener {
             Log.e("in","in webview")
-
-            val intent = Intent(this@MainActivity,TestWebview::class.java)
+            val intent = Intent(this@SDKExampleActivity,TestWebview::class.java)
             startActivity(intent)
         }
-
     }
 }
