@@ -1,0 +1,305 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Base application theme. -->
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <!-- <item name="android:windowEnableSplitTouch">false</item>
+         <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+         <item name="cardViewStyle">@style/CardView</item>-->
+    </style>
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">@dimen/text_14sp</item>
+    </style>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">-->
+    <style name="AppTheme.SDK" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <!-- <item name="android:windowEnableSplitTouch">false</item>
+         <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+         <item name="cardViewStyle">@style/CardView</item>-->
+    </style>
+
+    <style name="AppThemeCustom" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyDialogTheme" parent="@android:style/Theme.Panel">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/transparentcolor</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--  <item name="android:windowAnimationStyle">@style/MyAnimation.Window</item>-->
+    </style>
+
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:width">@dimen/dialog_width</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/transparentcolor</item>
+        <item name="android:background">@color/transparentcolor</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabText</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_15point4sp</item>
+        <!--<item name="android:padding">@dimen/dimen_4dp</item>-->
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <style name="MyCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_15point4sp</item>
+        <item name="android:textColor">@color/grey1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">@dimen/dimen_4dp</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <style name="MyCustomTabLayout_monthly" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabText_monthly</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_15point4sp</item>
+        <item name="android:padding">@dimen/dimen_4dp</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <style name="MyCustomTabText_monthly" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_15point4sp</item>
+        <item name="android:textColor">@color/grey1</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">@dimen/dimen_4dp</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <style name="MyCustomTabLayout_ims" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabText_ims</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_15point4sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <style name="MyCustomTabText_ims" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_15point4sp</item>
+        <item name="android:textColor">@color/grey1</item>
+        <item name="android:singleLine">true</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <style name="TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_23sp</item>
+    </style>
+
+    <style name="MyStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/yellow</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">15dp</item>
+        <item name="tabPaddingEnd">15dp</item>
+    </style>
+
+    <declare-styleable name="SeekBarWithHint">
+        <attr name="hint_text_size" format="dimension" />
+        <attr name="hint_text_color" format="color" />
+    </declare-styleable>
+
+    <style name="Checkbox">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="HATCCheckbox">
+        <item name="colorAccent">@color/haTCCheckColor</item>
+    </style>
+
+    <style name="LoginCheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">@color/black</item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">@color/loginCheckButtonColor</item> <!-- activated color change as you wish -->
+        <item name="android:textColor">@color/black</item> <!-- checkbox text color -->
+    </style>
+
+
+    <style name="MyEdittext" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_40dp</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_23dp</item>
+        <item name="android:layout_marginRight">@dimen/dimen_23dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen_8dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+        <item name="android:padding">@dimen/dimen_10dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColorHint">@color/cashless_claim_hints</item>
+        <item name="android:textSize">@dimen/text_13point4sp</item>
+
+    </style>
+
+    <style name="AlertDialogThemeNew" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/active_days_yellow</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/active_days_yellow</item>
+    </style>
+
+    <!-- Theme.AppCompat.Light is not a dialog theme -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/active_days_yellow</item>
+    </style>
+
+    <style name="fontRegular">
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <style name="fontBold">
+        <item name="android:fontFamily">@font/pfhandbookpro_bold</item>
+    </style>
+
+    <style name="AlertDialogThemeFP" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyleFP</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyleFP</item>
+    </style>
+
+    <style name="NegativeButtonStyleFP" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/active_days_yellow</item>
+    </style>
+
+    <style name="PositiveButtonStyleFP" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TranslucentActivity" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/scratchCouponTranslucentOverlay</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">
+            @color/scratchCouponTranslucentOverlay
+        </item>
+    </style>
+
+
+    <style name="AppTheme.Tabs.TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/pfhandbookpro_regular</item>
+        <item name="android:textSize">@dimen/text_17sp</item>
+    </style>
+
+    <style name="gymSpinnerTextStyle" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:textColor">@color/gym_upcoming_booking_status</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Spinner.DropDown.ListView</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lines">2</item>
+    </style>
+
+    <style name="Widget.Spinner.DropDown.ListView" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:layout_marginLeft">-16dp</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="GymListTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_15point4sp</item>
+        <item name="android:textColor">@color/grey1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">@dimen/dimen_4dp</item>
+        <item name="android:fontFamily">@font/pfhandbookpro_regular</item>
+    </style>
+
+    <!--TODO dialog animation on hold.. Discuss with Akash will take it in next sprint-->
+    <style name="DialogAnimation">
+        <!-- <item name="android:windowEnterAnimation">@anim/zoom_in</item>
+         <item name="android:windowExitAnimation">@anim/zoom_out</item>-->
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomLeft">@dimen/dimen_65dp</item>
+        <item name="cornerSizeBottomRight">@dimen/dimen_65dp</item>
+    </style>
+
+    <!--Teams and Contest-->
+    <style name="TeamsAndContestBannerCornerRadius" parent="">
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomLeft">@dimen/dimen_20dp</item>
+        <item name="cornerSizeBottomRight">@dimen/dimen_20dp</item>
+    </style>
+
+    <!--
+        <style name="ToggleSwitchTheme" parent="AppTheme">
+            <item name="colorAccent">@color/colorPrimary</item>
+        </style>
+    -->
+</resources>

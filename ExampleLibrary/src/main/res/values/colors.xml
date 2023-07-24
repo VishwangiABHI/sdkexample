@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c7222b</color>
+    <color name="colorPrimaryDark">#B21E25</color>
+    <color name="colorAccent">#feecbc</color>
+
+    <!--<color name="red_walkthrough">#c7222b</color>-->
+
+    <color name="white">#ffffff</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_40">#64FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_1">#fafafa</color>
+    <color name="black">#000000</color>
+
+
+    <color name="dot_active">#ffffff</color>
+    <color name="dot_inactive">#B2B2B2</color>
+    <color name="line_active">#F7A500</color>
+    <color name="line_inactive">#E4E4E4</color>
+    <color name="actionBarColor">#f97e05</color>
+    <color name="tooltip_color">#f7a502</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active</item>
+        <item>@color/dot_active</item>
+        <item>@color/dot_active</item>
+        <item>@color/dot_active</item>
+    </array>
+    <array name="array_dot_active_red">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive</item>
+        <item>@color/dot_inactive</item>
+        <item>@color/dot_inactive</item>
+        <item>@color/dot_inactive</item>
+    </array>
+
+    <color name="bluestream_end">#3AB5F1</color>
+    <color name="bluestream_start">#833FF6</color>
+
+    <color name="greenstream_end">#26C0B8</color>
+    <color name="greenstream_start">#45E895</color>
+
+    <color name="redtream_end">#EC5463</color>
+    <color name="redstream_start">#D7273B</color>
+
+    <color name="grey1">#9d9d9d</color>
+    <color name="grey2">#82878a</color>
+    <color name="grey3">#d8d8d8</color>
+    <color name="grey4">#8f8f8f</color>
+    <color name="grey5">#787878</color>
+    <color name="grey6">#797979</color>
+    <color name="grey7">#979797</color>
+    <color name="grey8">#e6e6e6</color>
+    <color name="grey9">#f8f8f8</color>
+    <color name="grey10">#a8a8a8</color>
+    <color name="grey11">#e0e0e0</color>
+    <color name="grey12">#696969</color>
+    <color name="grey_6">#ececec</color>
+
+    <color name="edittext_bg">#f1f3f6</color>
+
+    <color name="button_bg">#e5e5e5</color>
+    <color name="button_text">#8e8e8e</color>
+
+    <color name="text_black_1">#4a4a4a</color>
+    <color name="text_black_2">#2b2b2b</color>
+
+    <color name="transparentcolor">#00000000</color>
+    <color name="feedback_editext_bg">#efefef</color>
+
+    <color name="earn_color">#3ab57c</color>
+    <color name="burn_color">#db9089</color>
+
+    <!--<color name="active_days_red">#c7222a</color>
+    <color name="active_days_peach">#db9089</color>
+    <color name="active_days_yellow">#f7a502</color>
+    <color name="active_days_brown">#6a4742</color>-->
+
+    <color name="active_days_peach">#db9089</color>
+    <color name="active_days_brown">#6a4742</color>
+    <color name="active_days_yellow">#f7a502</color>
+
+    <color name="calender_text">#1d1d26</color>
+
+    <color name="graph_tooltip">#393e44</color>
+
+    <color name="grey_bg">#f7f7f7</color>
+
+    <color name="yellow">#f1a222</color>
+    <color name="profile_text_grey">#909092</color>
+    <color name="orangeIndicator">#F1A222</color>
+    <color name="bottom_bar_grey">#929292</color>
+
+    <color name="silver">#d1d1d1</color>
+    <color name="bronze">#DAA574</color>
+    <color name="gold">#DE9318</color>
+
+    <color name="faq_ans_grey">#999999</color>
+
+    <color name="text_grey">#f3f3f3</color>
+
+    <color name="curve_grey">#2c2c2c</color>
+    <color name="text_curve_grey">#5f5f5f</color>
+
+    <color name="pendingactions_card1">#d4ae69</color>
+    <color name="pendingactions_card2">#db9089</color>
+    <color name="pendingactions_card3">#c7222b</color>
+
+    <color name="text_dashboard_grey">#545454</color>
+
+
+    <color name="main_bg_color">#f7f7f7</color>
+
+
+    <color name="cashless_claim_grey">#9d9d9d</color>
+    <color name="cashless_claim_hints">#82878a</color>
+    <color name="fab_bg">#f2ffffff</color>
+    <color name="fab_bg_">#90ffffff</color>
+    <color name="hide_details_bg">#b21e26</color>
+    <color name="graph_fill_color">#00ffffff</color>
+    <color name="track_claims_landing_bg">#b1b1b1</color>
+    <color name="address_color">#494949</color>
+    <color name="fitness_type_bg">#fafafa</color>
+    <color name="red_indicator">#dd7a7f</color>
+    <color name="light_blue">#337ab7</color>
+
+    <color name="black_opacity60">#99000000</color>
+
+    <color name="divider_color">#000000</color>
+    <color name="light_grey">#d8d8d8</color>
+    <color name="white_opacity65">#A6FFFFFF</color>
+    <color name="black_opacity40">#66000000</color>
+
+    <color name="href">#0000FF</color>
+    <color name="green">#008000</color>
+
+    <color name="profileicons">#6A4742</color>
+    <color name="profileicons_">#556A4742</color>
+    <color name="black_">#55000000</color>
+
+    <color name="white_">#99ffffff</color>
+
+    <color name="peach_light">#EBD9D6</color>
+    <color name="text_location">#535353</color>
+    <color name="peach">#a3db9089</color>
+
+    <!--<color name="bg_1">#fafafa</color>-->
+    <color name="bg_1">#f4f4f4</color>
+
+
+    <color name="aa_card_top_bg">#e7b5b0</color>
+    <color name="hr_header">#4f4a4a</color>
+    <color name="hr_click_here">#888a8b</color>
+    <color name="hr_4step_text_color">#d0021b</color>
+
+    <color name="hhs_green">#3AB57C</color>
+    <color name="hhs_red">#C7222B</color>
+    <color name="hhs_amber">#F7A502</color>
+
+    <color name="greyIndicator">#C7C7C7</color>
+
+    <color name="newdashboard_text_grey">#80a7a5a5</color>
+    <color name="newdashboard_text_grey_other">#d1d1d1</color>
+
+    <color name="bronze_new">#daa574</color>
+    <color name="silver_new">#d1d1d1</color>
+    <color name="gold_new">#f7bc14</color>
+    <color name="black_bg">#1a1a1a</color>
+    <color name="red_bg">#9b1a20</color>
+
+    <color name="light_black_vas">#1c1c1c</color>
+    <color name="calorie_active_day_earned">#49b049</color>
+    <color name="vas_guide_bottom_text">#6e4c47</color>
+    <color name="vas_guide_header_text">#b6b6b6</color>
+
+    <color name="leaderboard_gold_bg">#0ce89e04</color>
+    <color name="leaderboard_gold_line">#4ce89e04</color>
+    <color name="leaderboard_silver_bg">#197e899d</color>
+    <color name="leaderboard_silver_line">#4c7e899d</color>
+    <color name="leaderboard_bronze_bg">#079f4800</color>
+    <color name="leaderboard_bronze_line">#4c9f4800</color>
+    <color name="leaderboard_normal_bg">#ffffff</color>
+    <color name="leaderboard_normal_line">#ececec</color>
+    <color name="leaderboard_peach_bg">#B3DB9089</color>
+    <color name="line">#bababa</color>
+
+    <color name="ha_upcoming_booking">#825b56</color>
+    <color name="ha_reschedule_booking">#db9089</color>
+    <color name="ha_Cancel_booking">#825b56</color>
+
+    <!--contest and rewards-->
+    <color name="colorInCompeletedMileStone">#979797</color>
+    <color name="colorCompeletedMileStone">#0e9c68</color>
+    <color name="colorCardCompeletedMileStone">#ecfff8</color>
+    <color name="colorCardInCompeletedMileStone">#fafafa</color>
+    <color name="colorFadeWhite">#90ffffff</color>
+    <color name="colorShadowBackground">#fafafa</color>
+    <color name="colorRewardsTitle">#5d413b</color>
+    <color name="colorRewardsDate">#6d6b6b</color>
+    <color name="colorMileStoneOngoingTitle">#da9089</color>
+    <color name="colorMileStoneExpiredTitle">#767676</color>
+    <color name="colorMileStoneCompletedStatus">#bfffe7</color>
+    <color name="colorMileStoneCompletedStatusText">#2bb884</color>
+    <color name="colorMyRewardsVoucherExpiredText">#6c7174</color>
+
+    <color name="image_layer_bottom">#99000000</color>
+    <color name="image_layer_top">#00cccccc</color>
+    <color name="colorOverLay">#64000000</color>
+
+    <color name="black_opacity90">#E6000000</color>
+    <color name="colorContestRewardsTitle">#c7222a</color>
+    <color name="colorRankBackGround">#D33937</color>
+    <!--<color name="colorRankBackGround">#d23838</color>-->
+    <color name="colorBenefitContestRewardsTitle">#e5a440</color>
+    <color name="colorBackGroundRewardsExpieryDetails">#f1f1f1</color>
+    <color name="colorBackGroundMyRewardsExpieryDetails">#eeeeee</color>
+
+    <color name="scratch_start_gradient">#e5e5e5</color>
+    <color name="scratch_end_gradient">#cccccc</color>
+    <color name="scratchCouponTranslucentOverlay">#D9000000</color>
+
+    <color name="notification_unread_bg">#FCF7EC</color>
+    <color name="notification_read_bg">#FFFFFF</color>
+    <color name="notification_delete_bg">#C8212B</color>
+    <color name="notification_time_text">#4C4C4C</color>
+    <color name="shimmer_bg">#dddddd</color>
+
+    <!--GYM SEARCH-->
+    <color name="gym_upcoming_booking_header_bg">#FCF7EC</color>
+    <color name="gym_upcoming_booking_status_bg">#FFD787</color>
+    <color name="gym_completed_workout_booking_status_bg">#9CDCC2</color>
+    <color name="gym_past_booking_status_bg">#FFD2CD</color>
+    <color name="gym_past_booking_header_bg">#F2F2F2</color>
+    <color name="gym_upcoming_booking_status">#4C4C4C</color>
+    <color name="gym_completed_workout_booking_status">#1F874C</color>
+    <color name="gym_past_booking_status">#C7222A</color>
+    <color name="gym_dialog_title">#191919</color>
+    <color name="gym_dialog_sub_title">#515151</color>
+    <color name="gym_divider_bg">#E6E6E6</color>
+    <color name="gym_faq_ans_text">#B3000000</color>
+    <color name="notification_bg">#FFFCF8</color>
+    <color name="gymLocationSubtitle">#AEAEAE</color>
+    <color name="leaderBoardBuggleBG">#2d2d2d</color>
+    <color name="haErrorColor">#C7222A</color>
+    <color name="haTCCheckColor">#1F874C</color>
+
+    <color name="wellBeingscoreProgressBg">#F2F2F2</color>
+    <color name="MyWellBeingScore">#F7A500</color>
+    <color name="MyPeerWellBeingScore">#AEAEAE</color>
+    <color name="wellBeingRecommendationDesc">#4C4C4C</color>
+
+    <color name="wellBeingRecommendationNewTextBG">#FEDFA0</color>
+    <color name="wellBeingRecommendationNewText">#876617</color>
+    <color name="wellBeingRecommendationOldBG">#F6F6F6</color>
+    <color name="wellBeingRecommendationNewBG">#FEFEFE</color>
+    <color name="wellBeingRecommendationNewCardBorder">#C7222A</color>
+    <color name="wellBeingRecommendationOlderCardBG">#F7F7F7</color>
+
+    <color name="loginForgotTitle">#C7222A</color>
+    <color name="loginSeletedTabText">#C7222A</color>
+    <color name="loginNonSeletedTabText">#AEAEAE</color>
+    <color name="loginCheckButtonColor">#F7A500</color>
+    <color name="loginToolTipColor">#4C4C4C</color>
+    <color name="loginFPTitleColor">#4C4C4C</color>
+    <color name="fadeBgColor">#80000000</color>
+
+
+    <!--    //team list color-->
+    <color name="color1">#E3EDF0</color>
+    <color name="color2">#DCE1F6</color>
+    <color name="color3">#C7E6D8</color>
+    <color name="color4">#FDE1C1</color>
+    <color name="color5">#FCCDD4</color>
+
+    <!--    //team number color-->
+    <color name="num1">#CBDEE4</color>
+    <color name="num2">#CFD6F3</color>
+    <color name="num3">#A7DDC4</color>
+    <color name="num4">#FDCE97</color>
+    <color name="num5">#EEACB8</color>
+    <color name="winnerteam">#177797</color>
+    <color name="selectteam">#FFF4CE</color>
+
+
+    <color name="active_parent">#E9F3ED</color>
+    <color name="active_child">#1F874C</color>
+
+    <color name="deactive_parent">#FFF8EC</color>
+    <color name="deactive_child">#FFBE40</color>
+
+    <color name="completed_parent"> #f5f5f5</color>
+    <color name="completed_child">#1F874C</color>
+
+
+
+    =======
+    <!--Multiply Card New-->
+    <color name="greyColor">#4C4C4C</color>
+    <color name="greyColorPlatinum">#797979</color>
+    <color name="greenColor">#1F874C</color>
+
+
+    <array name="array_seven_line_active">
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+    </array>
+
+    <array name="array_seven_line_inactive">
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+    </array>
+    >>>>>>> origin/TeamsAndContest
+
+    <array name="array_six_line_active">
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+    </array>
+
+    <array name="array_six_line_inactive">
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+    </array>
+
+    <array name="array_three_line_active">
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+    </array>
+
+    <array name="array_three_line_inactive">
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+    </array>
+
+    <array name="array_five_line_active">
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+    </array>
+
+    <array name="array_five_line_inactive">
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+    </array>
+
+    <array name="array_four_line_active">
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+    </array>
+
+    <array name="array_four_line_inactive">
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+    </array>
+
+    <array name="array_two_line_active">
+        <item>@color/line_active</item>
+        <item>@color/line_active</item>
+    </array>
+
+    <array name="array_two_line_inactive">
+        <item>@color/line_inactive</item>
+        <item>@color/line_inactive</item>
+    </array>
+
+</resources>
