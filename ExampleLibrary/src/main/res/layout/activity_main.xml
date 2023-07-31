@@ -14,6 +14,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+<!--        <com.example.examplelibrary.CustomView-->
+<!--            android:id="@+id/sunrise_custom_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:setTitle="Sun rise time - Dhaka, Bangladesh" />-->
+
         <androidx.cardview.widget.CardView
             android:id="@+id/parentDAS"
             android:layout_width="match_parent"
