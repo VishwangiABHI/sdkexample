@@ -26,6 +26,7 @@ class TestWebview : AppCompatActivity(), AdvancedWebView.Listener {
     lateinit var binding : ActivityTestWebviewBinding
     lateinit var pdfDownloader: PdfDownloader
     var permissionRequestCode = 1
+    var webURL = "https://mtpre.adityabirlahealth.com/execute/journey/0848dea1-338a-48d1-9aac-0e5a901c32eb?member_id=&wellness_id=5&user_id=5&source=multiple&source=android&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this@TestWebview,R.layout.activity_test_webview)
@@ -44,7 +45,7 @@ class TestWebview : AppCompatActivity(), AdvancedWebView.Listener {
         binding.webview.settings.javaScriptEnabled = true
         binding.webview.webChromeClient = MyChrome()
         binding.webview.webViewClient = WebViewClient()
-        binding.webview.loadUrl("https://mtpre.adityabirlahealth.com/execute/journey/0848dea1-338a-48d1-9aac-0e5a901c32eb?member_id=&wellness_id=5&user_id=5&source=multiple&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma")
+        binding.webview.loadUrl(webURL)
         binding.webview.addJavascriptInterface(
             WebViewJavaScriptInterface(this@TestWebview),
             "Android"
@@ -104,7 +105,7 @@ class TestWebview : AppCompatActivity(), AdvancedWebView.Listener {
                 ), permissionRequestCode
             )
         } else {
-            binding.webview.loadUrl("https://mtpre.adityabirlahealth.com/execute/journey/0848dea1-338a-48d1-9aac-0e5a901c32eb?member_id=&wellness_id=5&user_id=5&source=multiple&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma")
+            binding.webview.loadUrl(webURL)
         }
     }
 
