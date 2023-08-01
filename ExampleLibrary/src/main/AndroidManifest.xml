@@ -19,9 +19,6 @@
             android:name=".CustomView"
             android:exported="false" />
         <activity
-            android:name=".Test"
-            android:exported="false" />
-        <activity
             android:name=".TestWebview"
             android:exported="false" />
         <activity
