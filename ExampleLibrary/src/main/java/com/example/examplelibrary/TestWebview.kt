@@ -62,7 +62,10 @@ class TestWebview : AppCompatActivity(), AdvancedWebView.Listener {
         binding.webview.setThirdPartyCookiesEnabled(true)
         binding.webview.webChromeClient = MyChrome()
         binding.webview.webViewClient = WebViewClient()
-        binding.webview.loadUrl("https://mtpre.adityabirlahealth.com/execute/journey/0848dea1-338a-48d1-9aac-0e5a901c32eb?member_id=$random&wellness_id=$random&user_id=$random&source=multiple&source=android&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma")
+        val url = "https://mtpre.adityabirlahealth.com/execute/journey/650115dd-b2ec-4cc6-94c4-dd3367a61590?\n" +
+                "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImQyMzY5ZjMwZGE5ZTdhZWZlZjAxYjBlODQ0NmFmM2I3IiwicGFzc3dvcmQiOiI2ZDVjZmM0OTYyYzU3ZjRmNWI5YTJlZDI1MzU4NWU5MyIsInNvdXJjZSI6IjVkNTE0NWRiYTJmZTU2MzQyNjU5NWZkYThiYTRkMjRlIiwiZXhwIjoxNjkwODc2MDE0LCJpc3MiOiJqb3VybmV5LWRhdGEtc2VydmljZSJ9.0BP8mTrpVqJ8TDqNXGreTgyyS6NpZSu1IC5fD4-iAW0&member_id=0287&medical_test_number=MTN0286&policy_no=PT0276&source=multiple&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&middle_name=kanhaiya&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma&address=kalyan&portal_redirection_url=http://127.0.0.1:5500/index.html&wbview_device=ios&learn_url=http://127.0.0.1:5500/index.html&report_url=http://127.0.0.1:5500/index.html"
+        //binding.webview.loadUrl("https://mtpre.adityabirlahealth.com/execute/journey/0848dea1-338a-48d1-9aac-0e5a901c32eb?member_id=$random&wellness_id=$random&user_id=$random&source=multiple&source=android&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma")
+        binding.webview.loadUrl(url)
         binding.webview.addJavascriptInterface(
             WebViewJavaScriptInterface(this@TestWebview),
             "Android"
