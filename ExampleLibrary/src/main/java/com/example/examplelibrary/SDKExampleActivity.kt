@@ -12,11 +12,11 @@ class SDKExampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this@SDKExampleActivity,R.layout.activity_main)
-//        binding.tvActiveMindStart.setOnClickListener {
-//            Log.e("in","in webview")
-//            val intent = Intent(this@SDKExampleActivity,TestWebview::class.java)
-//            startActivity(intent)
-//        }
+        binding.tvActiveMindStart.setOnClickListener {
+            Log.e("in","in webview")
+            val intent = Intent(this@SDKExampleActivity,TestWebview::class.java)
+            startActivity(intent)
+        }
 
 //        binding.sunriseCustomView.setSubtitle("5:31 AM") // sunrise time set as subtitle
 //        binding.sunriseCustomView.setSubtitle("5:01 PM")

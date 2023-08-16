@@ -29,17 +29,25 @@ class TestWebview : AppCompatActivity(), AdvancedWebView.Listener {
     private val CAMERA_MIC_PERMISSION_REQUEST_CODE = 700
     var webURL = "https://mtpre.adityabirlahealth.com/execute/journey/0848dea1-338a-48d1-9aac-0e5a901c32eb?member_id=6&wellness_id=6&user_id=6&source=multiple&source=android&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma"
     private var cameraPermission: PermissionRequest? = null
+    var customerId = ""
+    var firstName = ""
+    var lastName = ""
+    var clientCode = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this@TestWebview,R.layout.activity_test_webview)
+        if(intent != null){
+            customerId = intent.getStringExtra("customerId").toString()
+            firstName = intent.getStringExtra("firstName").toString()
+            lastName = intent.getStringExtra("lastName").toString()
+            clientCode = intent.getStringExtra("clientCode").toString()
+        }
         initView()
         val random = Random()
         random.nextInt()
         //val random = 100
         binding.textHeader.text = "DHA"
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            WebView.setWebContentsDebuggingEnabled(true);
-        }
+        WebView.setWebContentsDebuggingEnabled(true);
 
 //        if (!keepCache) {
 //            Log.i("zzz webView", "!keepCache")
@@ -62,7 +70,7 @@ class TestWebview : AppCompatActivity(), AdvancedWebView.Listener {
         binding.webview.setThirdPartyCookiesEnabled(true)
         binding.webview.webChromeClient = MyChrome()
         binding.webview.webViewClient = WebViewClient()
-        val url = "https://mtpre.adityabirlahealth.com/execute/journey/650115dd-b2ec-4cc6-94c4-dd3367a61590?&token=&customer_id=2&firstname=rohan&lastname=vish&source=abcd&clientcode=abcd"
+        val url = "https://mtpre.adityabirlahealth.com/execute/journey/650115dd-b2ec-4cc6-94c4-dd3367a61590?&token=&customer_id=$customerId&firstname=$firstName&lastname=$lastName&source=$clientCode&clientcode=$clientCode"
         //binding.webview.loadUrl("https://mtpre.adityabirlahealth.com/execute/journey/0848dea1-338a-48d1-9aac-0e5a901c32eb?member_id=$random&wellness_id=$random&user_id=$random&source=multiple&source=android&dob=1992-07-15&mobile_no=8108569103&gender=Male&first_name=Rohan&email=rohanvishwakarma182@gmail.com&last_name=vishwakarma")
         binding.webview.loadUrl(url)
         binding.webview.addJavascriptInterface(

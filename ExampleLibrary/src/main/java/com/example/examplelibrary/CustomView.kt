@@ -40,8 +40,10 @@ class CustomView(context: Context, @Nullable attrs: AttributeSet) : ConstraintLa
             subtitleTextView.text = subtitle
 
             view.setOnClickListener {
-                val intent = Intent(context,TestWebview::class.java)
-                context.startActivity(intent)
+//                val intent = Intent(context,TestWebview::class.java)
+//                context.startActivity(intent)
+
+                NavigateToABWSDK.navigateToSDK(context,"11","Vishwangi","Shah","abcd")
             }
         }
         finally {
